@@ -6,6 +6,12 @@
       "name": "Create app icons",
       "description": "Create or revise app icons with a host platform's built-in image generation, then export iOS, Android launcher, Google Play, and marketing files. Use for a new icon brief, an existing icon redesign, or requested visual variants.",
       "category": "Design & creative"
+    },
+    {
+      "slug": "integrate-audiencelab-ios",
+      "name": "Connect your iOS app to Audiencelab",
+      "description": "Install, review, or repair Audiencelab tracking for app opens, purchases, RevenueCat, and existing ads, with optional guidance for custom events and user properties.",
+      "category": "Development"
     }
   ]
 }

@@ -10,7 +10,7 @@
 
 ## Skill directory
 
-1 published skill. Choose a skill below for its requirements, installation instructions, and examples.
+2 published skills. Choose a skill below for its requirements, installation instructions, and examples.
 
 | Category | Published skills |
 | --- | ---: |
@@ -18,13 +18,19 @@
 | User acquisition | 0 |
 | App marketing | 0 |
 | [Design & creative](#design--creative) | 1 |
-| Development | 0 |
+| [Development](#development) | 1 |
 
 ### Design & creative
 
 | Skill | What it helps you do |
 | --- | --- |
 | [Create app icons](skills/create-app-icons/README.md) | Create or revise app icons with a host platform's built-in image generation, then export iOS, Android launcher, Google Play, and marketing files\. Use for a new icon brief, an existing icon redesign, or requested visual variants\. |
+
+### Development
+
+| Skill | What it helps you do |
+| --- | --- |
+| [Connect your iOS app to Audiencelab](skills/integrate-audiencelab-ios/README.md) | Install, review, or repair Audiencelab tracking for app opens, purchases, RevenueCat, and existing ads, with optional guidance for custom events and user properties\. |
 
 ---
 
