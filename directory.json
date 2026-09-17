@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "slug": "create-app-icons",
+      "name": "Create app icons",
+      "description": "Create or revise app icons with a host platform's built-in image generation, then export iOS, Android launcher, Google Play, and marketing files. Use for a new icon brief, an existing icon redesign, or requested visual variants.",
+      "category": "Design & creative"
+    }
+  ]
+}
