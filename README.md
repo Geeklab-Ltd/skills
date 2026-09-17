@@ -4,6 +4,8 @@
 
 **Practical AI skills for building, marketing, and growing apps.**
 
+[![Repository installs on skills.sh](https://skills.sh/b/Geeklab-Ltd/skills)](https://skills.sh/Geeklab-Ltd/skills)
+
 [Browse the directory](#skill-directory) · [Install a skill](#installation) · [About the collection](#why-we-share-these-skills)
 
 </div>
@@ -54,13 +56,21 @@ These describe the collection’s scope. The directory above shows what is avail
 
 ## Installation
 
-With Node.js and npm installed, run:
+Install through the [skills.sh CLI](https://skills.sh/docs/cli), our default installation method. With Node.js and npm installed, run:
 
 ```sh
-npx skills add 'https://github.com/Geeklab-Ltd/skills'
+npx skills add Geeklab-Ltd/skills
 ```
 
-Follow the installer prompts to choose the skills, a supported AI app, and the installation location. To install one skill directly, use the command in that skill’s README. See the [skills installer documentation](https://github.com/vercel-labs/skills) for supported apps and installation options.
+Follow the installer prompts to choose the skills, a supported AI app, and the installation location. To install a specific skill, use its name:
+
+```sh
+npx skills add Geeklab-Ltd/skills --skill integrate-audiencelab-ios
+```
+
+Each skill’s README provides its own command. See the [skills.sh installation guidance](https://skills.sh/docs/cli) and [installer documentation](https://github.com/vercel-labs/skills) for supported apps and installation options.
+
+The badge above shows the repository’s install count on skills.sh. Skills are listed and ranked from installations recorded through anonymous CLI telemetry; publication alone does not guarantee an immediate listing. See the [skills.sh FAQ](https://skills.sh/docs/faq). Telemetry can be disabled as described in the installer documentation.
 
 Read each skill’s README before using it. Some workflows need image generation, local command execution, developer tools, or third-party accounts. Installation supplies the skill package; it does not add those capabilities or accounts to your AI app.
 
