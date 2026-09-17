@@ -1,5 +1,7 @@
 # Create app icons
 
+[![Repository installs on skills.sh](https://skills.sh/b/Geeklab-Ltd/skills)](https://skills.sh/Geeklab-Ltd/skills)
+
 Create original app icons or revise an existing design with your AI app’s native image generation, then prepare organized files for iOS/iPadOS, Android launchers, Google Play, and marketing.
 
 Use `create-app-icons` for a new app brief, an icon redesign, or distinct visual concepts. The skill guides artwork creation and review; its bundled Python helper exports prepared images into platform-specific assets.
@@ -15,13 +17,13 @@ No Geeklab account, Geeklab MCP connection, or private catalog token is required
 
 ## Installation
 
-With Node.js and npm available, run this command from the project where you want to use the skill:
+Install through the [skills.sh CLI](https://skills.sh/docs/cli), the default way to install this skill. With Node.js and npm available, run this command from the project where you want to use the skill:
 
 ```sh
-npx skills add 'https://github.com/Geeklab-Ltd/skills/tree/main/skills/create-app-icons'
+npx skills add Geeklab-Ltd/skills --skill create-app-icons
 ```
 
-Follow the installer prompts to select a supported AI app and installation location. See the [skills installer documentation](https://github.com/vercel-labs/skills) for available apps and installation options.
+Follow the installer prompts to select a supported AI app and installation location. No Geeklab account or MCP connection is required for installation. The badge above reports installs for the whole Geeklab Skills repository, not this skill alone. See the [skills installer documentation](https://github.com/vercel-labs/skills) for available apps and installation options.
 
 Keep the complete installed skill directory together:
 
