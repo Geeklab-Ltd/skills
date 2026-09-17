@@ -1,5 +1,7 @@
 # Integrate Audiencelab on iOS
 
+[![Repository installs on skills.sh](https://skills.sh/b/Geeklab-Ltd/skills)](https://skills.sh/Geeklab-Ltd/skills)
+
 An agent skill for installing, auditing, or repairing the Audiencelab native iOS SDK. It helps your AI agent follow the official SDK guidelines for app startup, purchase reporting, RevenueCat integration, existing ads, and optional custom events and user properties.
 
 The skill reviews source code and configuration. It does not run your app or prove that events reached the backend.
@@ -45,13 +47,13 @@ Your chosen AI app and existing services have their own account and billing requ
 
 ## Installation
 
-Run:
+Install through the [skills.sh CLI](https://skills.sh/docs/cli), the default way to install this skill. With Node.js and npm available, run:
 
 ```sh
-npx skills add 'https://github.com/Geeklab-Ltd/skills/tree/main/skills/integrate-audiencelab-ios'
+npx skills add Geeklab-Ltd/skills --skill integrate-audiencelab-ios
 ```
 
-Follow the installer prompts to select a supported AI app and installation location.
+Follow the installer prompts to select a supported AI app and installation location. No Geeklab account or MCP connection is required for installation. The badge above reports installs for the whole Geeklab Skills repository, not this skill alone.
 
 This installs the **agent skill**, not the Audiencelab SDK into your iOS app. SDK installation and configuration happen when you ask the agent to apply the skill to your project.
 
